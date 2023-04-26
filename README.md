@@ -1,9 +1,9 @@
 Created this Social Media Application with React and Typescript with a firebase hosting with google authentication system.
 
 App is deployed on Firebase Hosting: 
-crudapp619.web.app
-crudapp619.firebaseapp.com
 
+https://crudapp619.firebaseapp.com/
+https://crudapp619.web.app/
 
 -Used Firebase to store users data
 -Embedded it with google a=login so that users can seamlessly login with their google accounts
