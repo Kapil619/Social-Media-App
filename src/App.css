@@ -1,6 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+
+html,body{
+  background-color: lavender;
+}
 .App {
   text-align: center;
+  background-color:lavender;
 }
+
+
+/* 
+  CUSTOM  
+        CSS
+            */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.navbar {
+  /* height: 80px; */
+  /* width: 100%; */
+  background-color: slateblue;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.links {
+  width: 100%;
+  background-color: slateblue;
+
+}
+
+
+.nav-itemm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.create-post {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  margin-top: 50px;
+  padding: 30px 20px;
+  width: 320px;
+  border-radius: 7px;
+  background-color: white;
+  backdrop-filter: blur(5px);
+  background-color: rgba(43, 0, 255, 0.588);
+  overflow: hidden;
+  /* margin-left: 40%; */
+  /* margin-top: auto; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  padding: 8px 10px;
+  margin: 3px 8px 16px 8p;
+  background-color: rgba(222, 239, 248, 0.8777);
+  border: 0px transparent;
+  border-radius: 5px;
+  color: rgb(97, 4, 184);
+  font-size: 16px;
+  z-index: 1;
+}
+
+.submit-button {
+  padding: 10px 15px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  /* border-radius: 15px; */
+  /* box-shadow: 0 9px #999; */
+}
+
+.submit-button:hover {
+  background-color: #3e8e41
+}
+
+.submit-button:active {
+  background-color: #3e8e41;
+  /* box-shadow: 0 5px #666; */
+  transform: translateY(4px);
+}
+
+/* .user-post{
+  display: flex;
+  flex-direction: row;
+} */
+
+.small {
+  justify-content: left;
+}
+
+
+
+
+
+.userpostcard {
+  display: inline;
+  background-color: #BA90C6;
+  /* flex-direction: row; */
+  /* display: inline-block; */
+}
+
+.likebtn {
+  transition: transform .2s;
+}
+
+.likebtn:hover {
+  cursor: pointer;
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.5);
+
+}
+
+
+/* .user-post div{
+  display: flex;
+  flex-direction: row;
+} */
+
+
+/* added externally  */
+
+
+
+
+
+
+
+
+/* button {
+  --c:  rgb(120, 233, 0); 
+  
+  box-shadow: 0 0 0 .1em inset var(--c); 
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: 
+    var(--_g) calc(var(--_p,0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p,0%)) 0%,
+    var(--_g) calc(var(--_p,0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p,0%)) 100%;
+  background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+  outline-offset: .1em;
+  transition: background-size .4s, background-position 0s .4s;
+}
+button:hover {
+  --_p: 100%;
+  transition: background-position .4s, background-size 0s;
+}
+button:active {
+  box-shadow: 0 0 9e9q inset #0009; 
+  background-color: var(--c);
+  color: #fff;
+}
+button {
+  font-family: system-ui, sans-serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 15px 15px;
+  padding: .1em .6em;
+  font-weight: 500;  
+  border: none;
+} */
+
+
+/* .homepage {
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+} */
+
+/* .homepage{
+  font-family: 'Tangerine', cursive;
+  font-size:5rem;
+  color:midnightblue;
+} */
+.links a {
+  color: white;
+  text-decoration: none;
+  /* border-bottom: 3px solid white; */
+  /* padding-bottom: 2px; */
+  margin: 10px;
+}
+
+
+
+.userinfo {
+  display: flexbox;
+  flex-direction: row;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  gap: 0.8rem;
+  margin-right: 5vw;
+}
+
+.user-img {
+  display: flex;
+  /* float: right; */
+
+}
+
+/* .user p{
+  font-size: 1.1rem;
+  margin: auto;
+  // margin-right: 10px; 
+  color: white;
+
+} */
+
+.user-img {
+  font-size: 15px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+/* .log-out {
+  display: block;
+  width: 100%;
+  height: 100%;
+} */
+
 
 .App-logo {
   height: 40vmin;
@@ -32,7 +277,177 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* body {
+  background-color: blanchedalmond;
+} */
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-h1 {
+  font-size: 8rem;
+  text-transform: uppercase;
+  font-family: 'Gambetta', serif;
+  letter-spacing: -0.3rem;
+  transition: 700ms ease;
+  font-variation-settings: "wght" 311;
+  margin-bottom: 0.8rem;
+  color: rgb(84, 42, 110);
+  outline: none;
+  text-align: center;
+}
+
+.home-h1:hover {
+  font-variation-settings: "wght" 582;
+  letter-spacing: 2px;
+}
+
+.home-p {
+
+  font-size: 2rem;
+  line-height: 150%;
+  text-align: center;
+  color: rgb(24, 135, 80);
+  letter-spacing: .5px;
+}
+
+@media (max-width: 575px) {
+  .home-h1 {
+    font-size: 3rem;
+  }
+
+  .home-p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .home-h1 {
+    font-size: 5rem;
+  }
+
+  .home-p {
+    font-size: 2.1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .home-h1 {
+    font-size: 7rem;
+  }
+
+  .home-p {
+    font-size: 2.2rem;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1199px) {
+  .home-h1 {
+    font-size: 9rem;
+  }
+
+  .home-p {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-h1 {
+    font-size: 10rem;
+  }
+
+  .home-p {
+    font-size: 3rem;
+  }
+}
+
+.sign-in-div {
+  margin-top: 50px;
+  padding: 30px 20px;
+  width: 320px;
+  height: 200px;
+  background-color: white;
+  background-color: rgba(80, 52, 243, 0.588);
+  backdrop-filter: blur(5px);
+  overflow: hidden;
+  margin-left: 40%;
+  border: 3px solid slateblue;
+  border-radius: 7px;
+}
+
+.sign-in {
+  font-size: 1.5rem;
+  color:black;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button-container {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.my-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.fa-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-top: 10%
+}
+
+/* @media (max-width: 768px) {
+  .brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    color: antiquewhite;
+  }
+} */
+
+.brand-name { 
+  font-family: 'Sacramento', cursive;
+   font-size: 2rem !important; 
+   text-shadow: 1px 1px 2px rgb(167, 176, 0), 0 0 1em rgb(141, 228, 255), 0 0 0.2em rgb(203, 193, 237);
+  color: white; 
+  margin-left: 10px;
+  /* color: #ac0202;
+  text-shadow: 2px 2px 0 #fff, 3px 3px 0 #999;
+  transform: skew(-10deg);
+  -webkit-transform: skew(-10deg);
+  -moz-transform: skew(-10deg);  */
+  /* text-shadow: 2px 2px 0 #000, 4px 4px 0 #fff; */
+}
+
+.off-canvas{
+  background-color: azure;
+}
+
+@media (min-width: 769px) {
+  .brand {
+    display: none;
   }
 }
