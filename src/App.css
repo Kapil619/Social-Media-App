@@ -2,14 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 
-html,body{
+html,
+body {
   background-color: lavender;
 }
+
 .App {
   text-align: center;
-  background-color:lavender;
+  background-color: lavender;
 }
-
+@media ( max-width:328){
+  .nav-mine{
+      width: 100%;
+  }
+}
 
 /* 
   CUSTOM  
@@ -23,7 +29,8 @@ body {
 
 .navbar {
   /* height: 80px; */
-  /* width: 100%; */
+
+  width: 100%;
   background-color: slateblue;
   /* display: flex; */
   /* flex-direction: column; */
@@ -323,6 +330,14 @@ button {
   letter-spacing: .5px;
 }
 
+@media (max-width:576) {
+  .sign-in-div {
+    width: 200px;
+    height: 200px;
+
+  }
+}
+
 @media (max-width: 575px) {
   .home-h1 {
     font-size: 3rem;
@@ -374,23 +389,25 @@ button {
 }
 
 .sign-in-div {
-  margin-top: 50px;
+  margin-top: 4rem;
   padding: 30px 20px;
+  text-align: center;
   width: 320px;
   height: 200px;
   background-color: white;
   background-color: rgba(80, 52, 243, 0.588);
   backdrop-filter: blur(5px);
   overflow: hidden;
-  margin-left: 40%;
+  margin-left: auto;
+  margin-right: auto;
   border: 3px solid slateblue;
   border-radius: 7px;
 }
 
 .sign-in {
   font-size: 1.5rem;
-  color:black;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .button-container {
@@ -428,11 +445,11 @@ button {
   }
 } */
 
-.brand-name { 
+.brand-name {
   font-family: 'Sacramento', cursive;
-   font-size: 2rem !important; 
-   text-shadow: 1px 1px 2px rgb(167, 176, 0), 0 0 1em rgb(141, 228, 255), 0 0 0.2em rgb(203, 193, 237);
-  color: white; 
+  font-size: 2rem !important;
+  text-shadow: 1px 1px 2px rgb(167, 176, 0), 0 0 1em rgb(141, 228, 255), 0 0 0.2em rgb(203, 193, 237);
+  color: white;
   margin-left: 10px;
   /* color: #ac0202;
   text-shadow: 2px 2px 0 #fff, 3px 3px 0 #999;
@@ -442,7 +459,7 @@ button {
   /* text-shadow: 2px 2px 0 #000, 4px 4px 0 #fff; */
 }
 
-.off-canvas{
+.off-canvas {
   background-color: azure;
 }
 

@@ -34,7 +34,7 @@ export const Navbarr = () => {
   return (
     <>
       {/* <Nav className="justify-content-center navbar"> */}
-      <Navbar className="nav-mine" expand="md sm" style={{ width: "100%" }}>
+      <Navbar className="nav-mine" expand="md sm" style={{width:"100%"}}>
         <Navbar.Brand className="brand-name" href="/">
           NotesGram
         </Navbar.Brand>
