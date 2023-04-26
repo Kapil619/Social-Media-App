@@ -18,7 +18,7 @@ export const Homepage = () => {
         <>
           {
             <div className="container">
-              <h1 className="home-h1" contentEditable>
+              <h1 className="home-h1" >
                 NotesGram
               </h1>
               <p className="home-p">Create | Write | Share | Collaborate.</p>
@@ -40,7 +40,7 @@ export const Homepage = () => {
 
           <Offcanvas
           className="off-canvas"
-            style={{ width: "20%" }}
+            style={{ width: "200px" }}
             backdrop={true}
             scroll={true}
             placement="end"
