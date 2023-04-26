@@ -1,7 +1,9 @@
 Created this Social Media Application with React and Typescript with a firebase hosting with google authentication system.
 
 App is deployed on Firebase Hosting: 
+
 crudapp619.web.app
+
 crudapp619.firebaseapp.com
 
 
