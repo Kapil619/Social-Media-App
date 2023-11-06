@@ -25,4 +25,3 @@ Fork it | Clone it | Update it | Modify it |
 Ping me if you find the solutions to my problems.
 
 Note: I plan on fixing these issues in the near future. 
-#peaceout
